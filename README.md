@@ -171,8 +171,6 @@ Astra ships as a single multi-stage Docker image (React build → Python server)
 
 - "Author idle" is inferred **from commit activity**, not HR data.
 - Import fan-in is a cross-language heuristic (exact for Python-style imports).
-- The default demo workspace seeds public repos (e.g. [pallets/flask](https://github.com/pallets/flask)) so the dossier is always self-consistent.
-
 ---
 
 Made by **Divyanshu Verma**.
