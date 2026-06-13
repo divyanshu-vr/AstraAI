@@ -1,0 +1,17 @@
+groq
+chromadb
+python-dotenv
+fastapi
+uvicorn[standard]
+fastembed-gpu        # local ONNX embeddings; falls back to CPU automatically
+# GPU embeddings also need the pip CUDA libs (skip if CPU-only):
+nvidia-cublas-cu12
+nvidia-cudnn-cu12
+nvidia-cuda-runtime-cu12
+nvidia-curand-cu12
+nvidia-cufft-cu12
+# optional: only if EMBED_PROVIDER=gemini
+google-genai
+
+# optional: Slack bot (python -m astra.slack_bot)
+slack_bolt

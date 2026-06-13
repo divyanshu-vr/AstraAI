@@ -1,0 +1,17 @@
+.venv
+.git
+.gitignore
+**/node_modules
+frontend/dist
+frontend-old
+.astra
+.chroma
+.cache
+screenshots
+*.png
+*.jpeg
+**/__pycache__
+**/*.pyc
+.env
+tasks.md
+DEPLOY.md
